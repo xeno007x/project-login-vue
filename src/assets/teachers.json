@@ -1,0 +1,97 @@
+
+
+
+  {
+    "teachers": [
+        {
+            "id": 1,
+            "name": "Anita Gupta",
+            "age": 35,
+            "subject": "Mathematics",
+            "teacherId": "TEA001",
+            "username": "teacher1",
+            "password": "teacher123"
+        },
+        {
+            "id": 2,
+            "name": "Rajesh Sharma",
+            "age": 42,
+            "subject": "Physics",
+            "teacherId": "TEA002",
+            "username": "teacher2",
+            "password": "teacher456"
+        },
+        {
+            "id": 3,
+            "name": "Deepa Patel",
+            "age": 38,
+            "subject": "Chemistry",
+            "teacherId": "TEA003",
+            "username": "teacher3",
+            "password": "teacher789"
+        },
+        {
+            "id": 4,
+            "name": "Meera Verma",
+            "age": 41,
+            "subject": "Biology",
+            "teacherId": "TEA004",
+            "username": "teacher4",
+            "password": "teacher101112"
+        },
+        {
+            "id": 5,
+            "name": "Vikram Singh",
+            "age": 37,
+            "subject": "Computer Science",
+            "teacherId": "TEA005",
+            "username": "teacher5",
+            "password": "teacher131415"
+        },
+        {
+            "id": 6,
+            "name": "Preeti Joshi",
+            "age": 34,
+            "subject": "English",
+            "teacherId": "TEA006",
+            "username": "teacher6",
+            "password": "teacher161718"
+        },
+        {
+            "id": 7,
+            "name": "Sanjay Gupta",
+            "age": 39,
+            "subject": "History",
+            "teacherId": "TEA007",
+            "username": "teacher7",
+            "password": "teacher192021"
+        },
+        {
+            "id": 8,
+            "name": "Neha Choudhary",
+            "age": 36,
+            "subject": "Geography",
+            "teacherId": "TEA008",
+            "username": "teacher8",
+            "password": "teacher222324"
+        },
+        {
+            "id": 9,
+            "name": "Amit Kumar",
+            "age": 40,
+            "subject": "Economics",
+            "teacherId": "TEA009",
+            "username": "teacher9",
+            "password": "teacher252627"
+        },
+        {
+            "id": 10,
+            "name": "Rashmi Singh",
+            "age": 37,
+            "subject": "Political Science",
+            "teacherId": "TEA010",
+            "username": "teacher10",
+            "password": "teacher282930"
+        }
+    ]
+}

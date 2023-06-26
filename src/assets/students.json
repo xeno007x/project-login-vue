@@ -1,0 +1,107 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Aarav Verma",
+        "age": 18,
+        "class": "12th Grade",                              
+        "courseRegistered": "Mathematics",
+        "studentId": "STU001",
+        "username": "student1",
+        "password": "123"
+      },
+      
+      {
+        "id": 2,
+        "name": "Aanya Patel",
+        "age": 17,
+        "class": "11th Grade",
+        "courseRegistered": "Physics",
+        "studentId": "STU002",
+        "username": "student2",
+        "password": "234"
+      },
+      {
+        "id": 3,
+        "name": "Arjun Sharma",
+        "age": 16,
+        "class": "10th Grade",
+        "courseRegistered": "Chemistry",
+        "studentId": "STU003",
+        "username": "student3",
+        "password": "student789"
+      },
+      {
+        "id": 4,
+        "name": "Ishita Gupta",
+        "age": 17,
+        "class": "11th Grade",
+        "courseRegistered": "Biology",
+        "studentId": "STU004",
+        "username": "student4",
+        "password": "456"
+      },
+      {
+        "id": 5,
+        "name": "Kabir Sharma",
+        "age": 16,
+        "class": "10th Grade",
+        "courseRegistered": "English",
+        "studentId": "STU005",
+        "username": "student5",
+        "password": "student654"
+      },
+      {
+        "id": 6,
+        "name": "Mira Singh",
+        "age": 18,
+        "class": "12th Grade",
+        "courseRegistered": "History",
+        "studentId": "STU006",
+        "username": "student6",
+        "password": "student321"
+      },
+      {
+        "id": 7,
+        "name": "Rohan Gupta",
+        "age": 16,
+        "class": "10th Grade",
+        "courseRegistered": "Geography",
+        "studentId": "STU007",
+        "username": "student7",
+        "password": "student654"
+      },
+      {
+        "id": 8,
+        "name": "Sara Khan",
+        "age": 17,
+        "class": "11th Grade",
+        "courseRegistered": "Computer Science",
+        "studentId": "STU008",
+        "username": "student8",
+        "password": "student987"
+      },
+      {
+        "id": 9,
+        "name": "Vivaan Patel",
+        "age": 18,
+        "class": "12th Grade",
+        "courseRegistered": "Economics",
+        "studentId": "STU009",
+        "username": "student9",
+        "password": "student321"
+      },
+      {
+        "id": 10,
+        "name": "Zara Sharma",
+        "age": 17,
+        "class": "11th Grade",
+        "courseRegistered": "Political Science",
+        "studentId": "STU010",
+        "username": "student10",
+        "password": "student654"
+      }
+    ]
+  }
+
+  
