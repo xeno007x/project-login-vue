@@ -2,26 +2,38 @@
     <div class="login-container">
       <h2>Login Page</h2>
       <form @submit.prevent="login" class="login-form">
-        <label for="username">Username: </label>
         <input type="text" id="username" v-model="username" required>
         <br>
         <label for="password">Password: </label>
         <input type="password" id="password" v-model="password" required>
         <br>
-        <button type="submit">Login</button>
-      </form>
-    </div>
+        <button type="submit">Login</button><br>
+        <div v-if ="loggedIn">
+            <h2>The name is : {{user.name}}</h2>
+            <StudentPage/>
+        </div>
+        <div v-else>
+            <GoogleLogin :callback = "callback" prompt auto-login/>
+        </div>
+       </form>
+   </div>  
   </template>
-  
-  <script>
-  export default {
+
+<script >
+
+export default {
     data() {
       return {
         username: '',
         password: '',
+        callback:(response)=> {
+          console.log("Logged in") 
+          console.log(response)
+        }
       };
     },
-    methods: {
+    
+methods: {
     login() {
       const teacher = this.$store.state.teachers.find(teacher => teacher.username === this.username);
       const student = this.$store.state.students.find(student => student.username === this.username);
@@ -42,15 +54,14 @@
       else {
         alert('Invalid username or password');
       }
-
-    }
+    },
+    
   }
   };
-  </script>
+</script>
   
-  <style>
-  /* Add your custom CSS styles here */
-  .login-container {
+<style>
+.login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
